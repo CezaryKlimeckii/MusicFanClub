@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Fanclub</title>
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+    <header>
+        <div class="container flex">
+            <a href="#top"><img src="images/Logo- Music FanClub.png" alt="Logo" class="logo"></a>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="nav-elements">
+                        <a class="nav-item" href="#audio">Discover</a>
+                    </li>
+                    <li class="nav-elements">
+                        <a class="nav-item" href="#articles">Articles</a>
+                    </li>
+                    <li class="nav-elements">
+                        <a class="nav-item" href="#new-relases">New relases</a>
+                    </li>
+                    <li class="nav-elements">
+                        <a class="nav-item" href="#contact">Contact</a>
+                    </li>                     
+                </ul>
+            </nav>
+            <ul class="social-media">
+                <li>
+                    <a href="#"><img class="social-icon" src="images/youtube_icon.svg" alt=""></a>
+                    <a href="#"><img class="social-icon" src="images/instargram_icon.svg" alt=""></a>
+                    <a href=""><img class="social-icon" src="images/facebook_icon.svg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="container grid-1">
+        <div class="music-player">
+            <h1>Find a new song for You!</h1>
+                <p class="artist-name"></p>
+                <h2 class="music-name"></h2>
+                <p class="welcome-text-header">Welcome to Music Fanclub!</p>
+                <p class="welcome-text">Here You can find a lot of novelties and fun facts about <br> Your favourite band or artist. </p>
+                <p class="welcome-text-2">If you want to freshen up your music catalogue,<br> then check out new relases or click the button <br> below to draw a random song. Enjoy! </p>
+                <button class="click-here">Click here to draw</button>
+            <div class="album-cover"></div>
+                <div class="controls">
+                    <button class="btn backward-btn"><img src="images/backwards_button.png" alt=""></button>
+                    <button class="play-btn pause">
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn forward-btn"><img src="images/forward_button.png" alt=""></button>
+                </div>
+                    <div class="song-slider">
+                        <input type="range" value="0" class="seek-bar">
+                        <span class="current-time">00:00</span>
+                        <span class="song-duration">00:00</span>
+                     </div>
+        </div>
+    </section>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+<div>
+    <img class="separator-1" src="images/separator_1.png" alt="">
+</div>
+
+<section id="articles">
+    <h2 class="section-header">Did you know that ... ?</h2>
+    <div class="grid-2">
+                <a class="article-description" href="#"><img src="images/theclash.webp" class="article-photo" alt="the clash">The Clash achieved critical and commercial success in the United Kingdom with the release of their debut album The Clash (1977)...</a>
+                <a class="article-description" href="#"><img src="images/jimi.jpg" class="article-photo" alt="jimi hendrix"></a>
+                <a class="article-description" href="#"><img src="images/xl_best-reverb-pedals (1).jpg" class="article-photo" alt="efekty gitarowe">Shop for guitar pedals online at Gear4music. Buy guitar effects pedals now and get 2-year warranty, fast, convenient delivery options ...</a>
+                <a class="article-description" href="#"><img src="images/musician-2943109_1280.jpg" class="article-photo" alt="gitara">Best online guitar lessons 2024: remote learning platforms for guitar players, tested by experts ...</a>
+                <a class="article-description" href="#"><img src="images/gorillaz123.jpg" class="article-photo" alt="gorillaz"></a>
+                <a class="article-description" href="#"><img src="images/jazz.jpg" class="article-photo" alt="jazz">Old cassette tapes and CDs are out, but you can still jam to those oldies but goodies with a well-curated playlist ...</a>
+                <a class="article-description" href="#"><img src="images/meme.jpg" class="article-photo" alt="">Memes are a fun way to brighten up your day. If you want to have a good laugh, funny meme songs can definitely help ...</a>
+                <a class="article-description" href="#"><img src="images/international-jazz-festival-web-banner-260nw-1426318115.webp" class="article-photo" alt="jazz music"></a>
+                <a class="article-description" href="#"><img src="images/black keys.jpg" class="article-photo" alt="black keys">The Black Keys 32 Date North American Tour TICKETS ON SALE NOW. A limited number of VIP packages are available. VIP packages include premium seats, sound</a>
+            </div>
+        <div class="article-button">
+            <button class="see-more">See more</button>
+        </div>       
+</section>
+
+<div>
+    <img class="separator-1" src="images/separator_2.png" alt="">
+</div>
+
+<section id="new-relases">
+    <h2 class="section-header">What's new?</h2>
+    <div class="grid-3">
+        <a href="#"><img src="images/dreamcanteen.jpg" class="article-photo" alt=""></a>
+        <p class="album-description">Return of the Dream Canteen is the thirteenth studio album by the American rock band Red Hot Chili Peppers, released on October 14, 2022, through Warner Records as a double LP and single CD. <br> Produced by Rick Rubin, it was recorded during the same sessions as the band's previous studio album, Unlimited Love, released earlier in 2022.
+
+            The first single, "Tippa My Tongue", was released on August 19, 2022, and was followed by the album's second single, "The Drummer", on October 14, 2022.<br>The Red Hot Chili Peppers wrote and recorded Return of the Dream Canteen during the same sessions as their previous studio album, Unlimited Love (2022).The sessions marked the return of guitarist John Frusciante after a ten-year absence.</p>
+        <a href="#"><img src="images/Cracker-Island.jpeg" class="article-photo" alt=""></a>
+        <p class="album-description">Cracker Island is the eighth studio album by the British virtual band Gorillaz. It was released on 24 February 2023 via Parlophone and Warner Records.<br> It features collaborations with Stevie Nicks, Adeleye Omotayo, Thundercat, Tame Impala, Bad Bunny, Bootie Brown and Beck. A deluxe edition was released on 27 February with five additional tracks featuring the artists De La Soul, MC Bin Laden, Del the Funky Homosapien and Dawn Penn.
+
+            <br>Cracker Island received mostly positive reviews, with the album debuting at number one on the UK Album Charts and number three on the US Billboard 200, making it the first Gorillaz album to reach number one in the UK since Demon Days (2005).</p>
+        <a href="#"><img src="images/Vinyldayslogicalbum.jpg" class="article-photo" alt=""></a>
+         <p class="album-description">Vinyl Days is the seventh studio album by American rapper Logic, released on June 17, 2022, by Visionary Music Group and Def Jam Recordings. The album is Logic's final album with Def Jam Recordings.<br> It contains 30 songs, making it the album with the most tracks in his discography, and features guest appearances from Action Bronson, Currensy, Russ, Wiz Khalifa, Royce da 5'9, RZA, AZ, DJ Premier, and The Game. <br>The album also serves as the introduction to Nigerian rapper Nezi Momodu on the track "Introducing Nezi."
+            Vinyl Days was released to positive reviews from music critics.The project was first announced and teased on his social media on January 11, 2022.
+            </p> 
+        <a href="#"><img src="images/dropout-boogie-b-iext122734340.jpg" class="article-photo" alt=""></a> 
+        <p class="album-description">Dropout Boogie is the eleventh studio album by American rock duo the Black Keys. It was released on May 13, 2022, by Easy Eye Sound and Nonesuch Records. <br>The album was preceded by the release of two singles: the lead single "Wild Child", which was released on March 10, 2022, in conjunction with the album announcement, and "It Ain't Over", which was released on April 27, 2022. <br>Work for Dropout Boogie began in summer of 2021, which initially saw the Black Keys plan ideas for the album as a duo before recruiting multiple musicians to collaborate with them such as Greg Cartwright of Reigning Sound and Billy Gibbons of ZZ Top, the latter a longtime friend of the duo.</p>
+        <a href="#"><img src="images/strokes.jpg" class="article-photo" alt=""></a> 
+        <p class="album-description">The New Abnormal is the sixth studio album by American rock band the Strokes, released on April 10, 2020, through Cult and RCA Records. It was their first full-length album since Comedown Machine (2013). <br> The album was produced by Rick Rubin and recorded at his Shangri-La studio in Malibu, California, with additional recording taking place at studios in Los Angeles County and Hawaii. <br>The Strokes began performing songs from the album for the first time throughout 2019 before revealing the album's track list and cover art in early 2020. "At the Door", "Bad Decisions", and "Brooklyn Bridge to Chorus" were released as singles prior to the album's release.</p>
+    </div>
+    <div class="article-button">
+        <button class="see-more">See more</button>
+    </div> 
+</section>
+
+<div>
+    <img class="separator-3" src="images/separator_3.png" alt="">
+</div>
+
+<section id="contact">
+<h2 class="section-header">Contact us!</h2>
+<div class="form-div">
+    <form>
+        <label for="fullname">
+            Full name <input class="form-input" type="text">
+        </label>
+        <label for="email">
+            Email* <input class="form-input" type="text" placeholder="">
+        </label>
+        <label for="subject">
+            Subject <input class="form-input" type="text" placeholder="">
+        </label>
+        <label for="message">
+            Message
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+    </form>
+</div>   
+</section>
+
+<div class="article-button">
+    <button class="see-more">Send</button>
+</div>
+
+<div>
+    
+</div>
+
+<section id="footer">
+    <footer>
+        <img class="separator-4" src="images/separator_4.png" alt="">
+        <div class="footer-box">
+            <h3 class="footer-header">Contact</h3>
+            <a class="footer-text" href="">musicfanclub@gmail.com</a> 
+            <a class="footer-text" href="">Contact form</a>
+            <a class="footer-text" href="">Follow us here</a>
+            <div class="footer-icon">
+                <a href="#"><img src="images/instagram_yellow.svg" alt=""></a>
+                <a href="#"><img src="images/youtube_yellow.svg" alt=""></a>
+                <a href="#"><img src="images/facebook_yellow.svg" alt=""></a>
+            </div>
+
+            <p class="footer-text"><br><br>All rights reserved by Music Fanclub 2024</p>
+
+        </div>
+</section>
+
+</body>
+</html>
