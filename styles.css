@@ -637,6 +637,14 @@ footer {
     margin-bottom: 110px;
 }
 
+.footer-header {
+    margin-top: -320px;
+}
+
+.form-div {
+    padding: 20px;
+}
+
 }
 
 @media(max-width:768px) {
@@ -685,9 +693,7 @@ footer {
     }
     .artist-name, 
     .music-name {
-        font-size: 10px;
-        margin-top: 420px;
-        margin-left:90px;
+        display: flex;
     }
     
     .artist-name {
@@ -751,16 +757,12 @@ footer {
     }
 
     .nav-elements {
-        display: flex;
+        display: none;
     }
     
     h1 {
         position: absolute;
         margin-top: -90px;
-    }
-
-    .nav-item {
-        font-size: 15px;
     }
 
     .music-player {
@@ -779,30 +781,30 @@ footer {
         display: grid;
         align-items: start;
         justify-content: center;
-        grid-template-columns: 100px 120px 100px;
-        grid-template-rows: 100px 120px 100px;
+        grid-template-columns: 40px 90px 40px;
+        grid-template-rows: 40px 90px 40px;
         width: 100%;
         height: 100%;
-        gap: 45px;
+        gap: 50px;
         grid-template-areas: 'top-left top-middle top-right'
                               left middle right'
                               'bottom-left bottom-middle bottom-right';
     }
     
     .article-description {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .grid-3 {
-        gap: 45px;
+        gap: 15px;
         display: grid;
         align-items: start;
         width: 100%;
         height: 100%;
         justify-content: center;
-        grid-template-columns: 70px 400px;
+        grid-template-columns: 70px 280px;
         grid-template-rows: 90px 90px 90px 90px 90px;
-        font-size: 9px;
+        font-size: 6px;
     }
     .article-description {
         margin-left: -40px;
